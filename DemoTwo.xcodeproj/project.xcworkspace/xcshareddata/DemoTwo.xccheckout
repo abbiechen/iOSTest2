@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C0DE479-266A-4D4F-957A-73EBB6F5BFD4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoTwo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C56C9513-5B9E-4A4E-9B7B-9C319F39425C</key>
+		<string>https://github.com/abbiechen/iOSTest2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DemoTwo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C56C9513-5B9E-4A4E-9B7B-9C319F39425C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/abbiechen/iOSTest2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C56C9513-5B9E-4A4E-9B7B-9C319F39425C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C56C9513-5B9E-4A4E-9B7B-9C319F39425C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSTest2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

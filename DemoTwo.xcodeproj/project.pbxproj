@@ -19,6 +19,11 @@
 		60ED5F3719A4427E00E5FCEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ED5F1F19A4427E00E5FCEE /* UIKit.framework */; };
 		60ED5F3F19A4427E00E5FCEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60ED5F3D19A4427E00E5FCEE /* InfoPlist.strings */; };
 		60ED5F4119A4427E00E5FCEE /* DemoTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ED5F4019A4427E00E5FCEE /* DemoTwoTests.m */; };
+		60ED5F4D19A449A100E5FCEE /* DTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ED5F4B19A449A100E5FCEE /* DTRootViewController.m */; };
+		60ED5F4E19A449A100E5FCEE /* DTRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60ED5F4C19A449A100E5FCEE /* DTRootViewController.xib */; };
+		60ED5F5219A44F2100E5FCEE /* DTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ED5F5019A44F2100E5FCEE /* DTTableViewCell.m */; };
+		60ED5F5319A44F2100E5FCEE /* DTTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60ED5F5119A44F2100E5FCEE /* DTTableViewCell.xib */; };
+		60ED5F5519A453AF00E5FCEE /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60ED5F5419A453AF00E5FCEE /* test@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		60ED5F3C19A4427E00E5FCEE /* DemoTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTwoTests-Info.plist"; sourceTree = "<group>"; };
 		60ED5F3E19A4427E00E5FCEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60ED5F4019A4427E00E5FCEE /* DemoTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTwoTests.m; sourceTree = "<group>"; };
+		60ED5F4A19A449A100E5FCEE /* DTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTRootViewController.h; sourceTree = "<group>"; };
+		60ED5F4B19A449A100E5FCEE /* DTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTRootViewController.m; sourceTree = "<group>"; };
+		60ED5F4C19A449A100E5FCEE /* DTRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTRootViewController.xib; sourceTree = "<group>"; };
+		60ED5F4F19A44F2100E5FCEE /* DTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableViewCell.h; sourceTree = "<group>"; };
+		60ED5F5019A44F2100E5FCEE /* DTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableViewCell.m; sourceTree = "<group>"; };
+		60ED5F5119A44F2100E5FCEE /* DTTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTTableViewCell.xib; sourceTree = "<group>"; };
+		60ED5F5419A453AF00E5FCEE /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 			children = (
 				60ED5F2A19A4427E00E5FCEE /* DTAppDelegate.h */,
 				60ED5F2B19A4427E00E5FCEE /* DTAppDelegate.m */,
+				60ED5F4A19A449A100E5FCEE /* DTRootViewController.h */,
+				60ED5F4B19A449A100E5FCEE /* DTRootViewController.m */,
+				60ED5F4C19A449A100E5FCEE /* DTRootViewController.xib */,
+				60ED5F4F19A44F2100E5FCEE /* DTTableViewCell.h */,
+				60ED5F5019A44F2100E5FCEE /* DTTableViewCell.m */,
+				60ED5F5119A44F2100E5FCEE /* DTTableViewCell.xib */,
 				60ED5F2D19A4427E00E5FCEE /* Images.xcassets */,
 				60ED5F2219A4427E00E5FCEE /* Supporting Files */,
 			);
@@ -118,6 +136,7 @@
 		60ED5F2219A4427E00E5FCEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60ED5F5419A453AF00E5FCEE /* test@2x.png */,
 				60ED5F2319A4427E00E5FCEE /* DemoTwo-Info.plist */,
 				60ED5F2419A4427E00E5FCEE /* InfoPlist.strings */,
 				60ED5F2719A4427E00E5FCEE /* main.m */,
@@ -220,8 +239,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60ED5F4E19A449A100E5FCEE /* DTRootViewController.xib in Resources */,
+				60ED5F5519A453AF00E5FCEE /* test@2x.png in Resources */,
 				60ED5F2619A4427E00E5FCEE /* InfoPlist.strings in Resources */,
 				60ED5F2E19A4427E00E5FCEE /* Images.xcassets in Resources */,
+				60ED5F5319A44F2100E5FCEE /* DTTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				60ED5F2C19A4427E00E5FCEE /* DTAppDelegate.m in Sources */,
+				60ED5F4D19A449A100E5FCEE /* DTRootViewController.m in Sources */,
 				60ED5F2819A4427E00E5FCEE /* main.m in Sources */,
+				60ED5F5219A44F2100E5FCEE /* DTTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +462,7 @@
 				60ED5F4619A4427E00E5FCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60ED5F4719A4427E00E5FCEE /* Build configuration list for PBXNativeTarget "DemoTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +471,7 @@
 				60ED5F4919A4427E00E5FCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

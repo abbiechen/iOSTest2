@@ -7,13 +7,17 @@
 //
 
 #import "DTAppDelegate.h"
+#import "DTRootViewController.h"
 
 @implementation DTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    DTRootViewController *dtRootViewController = [[DTRootViewController alloc]initWithNibName:@"DTRootViewController" bundle:nil];
+//    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:dtRootViewController];
+//    self.window.rootViewController = navigationController;
+    [self.window setRootViewController:dtRootViewController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
