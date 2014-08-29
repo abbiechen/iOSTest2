@@ -51,17 +51,19 @@
     if (nil == cell) {
         cell = (DTTableViewCell *)[[[NSBundle mainBundle] loadNibNamed:@"DTTableViewCell" owner:self options:nil] objectAtIndex:0];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
-//        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"DTTableViewCell" owner:self options:nil];
-//        cell = [nib objectAtIndex:0];
+        
     }
-    //NSArray *responseArray = [self.responseDic objectForKey:@"livebricks"];
+    
     NSDictionary *showDic = [self.responseArray objectAtIndex:indexPath.row];
-        cell.tableViewUpLable.text = [showDic objectForKey:@"category_description"];
-        cell.tableViewDownLable.text =[showDic objectForKey:@"name"];
-        NSData *imagedata=[NSData dataWithContentsOfURL:[NSURL URLWithString:[showDic objectForKey:@"category_image_url"]]];
-        UIImage *img = [UIImage imageWithData:imagedata];
-        cell.tableViewImageView.image = img;
-        cell.tableViewImageView.ContentMode = UIViewContentModeScaleAspectFit;
+    cell.tableViewUpLable.text = [showDic objectForKey:@"category_description"];
+    cell.tableViewDownLable.text= [NSString stringWithFormat:@"%@ : %@",[showDic objectForKey:@"name_title"],[showDic objectForKey:@"name"]];
+    cell.tableViewUpLable.adjustsFontSizeToFitWidth = YES;
+    cell.tableViewDownLable.adjustsFontSizeToFitWidth = YES;
+    
+    NSData *imagedata=[NSData dataWithContentsOfURL:[NSURL URLWithString:[showDic objectForKey:@"category_image_url"]]];
+    UIImage *img = [UIImage imageWithData:imagedata];
+    cell.tableViewImageView.image = img;
+    cell.tableViewImageView.ContentMode = UIViewContentModeScaleAspectFit;
     
     return cell;
 }
